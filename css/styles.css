@@ -198,6 +198,7 @@ a {
 }
 /* наша команда */
 .team-section {
+  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 .team {
@@ -357,6 +358,9 @@ address {
   line-height: 1.8;
 
   color: var(--primary-text-color);
+}
+.portfolio-section {
+  padding: 94px 0 94px 0;
 }
 
 .portfolio-section-title,
