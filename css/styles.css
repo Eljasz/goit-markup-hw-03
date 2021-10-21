@@ -209,7 +209,7 @@ h3 {
 .work-section-title {
   margin-bottom: 50px;
 }
-.img {
+img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -245,7 +245,7 @@ h3 {
   margin-right: 0;
 }
 .padding-container {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 .team-title {
@@ -350,8 +350,8 @@ address {
   margin-right: 8px;
   background-color: var(--buttoms-portfolio-background);
 }
-.buttom-portfolio-item:nth-last-child(5n) {
-  margin-right: 0;
+.buttom-porfolio-item:nth-child(5n) {
+  margin-right: 0px;
 }
 .button-portfolio:focus {
   color: var(--background-color);
