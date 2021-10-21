@@ -195,6 +195,7 @@ h3 {
   line-height: 1.7;
 }
 .feature-list .feature-item {
+  margin-right: 30px;
   width: 270px;
 }
 .feature-list .feature-item:nth-child(4n) {
