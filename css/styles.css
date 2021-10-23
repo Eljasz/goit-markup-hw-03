@@ -26,6 +26,10 @@ button {
   margin: 0;
   padding: 0;
 }
+/* класс для сбросса зазора у кнопок */
+button {
+  display: block;
+}
 /* класс для сброса маркеров на списке */
 ul {
   list-style: none;
@@ -259,7 +263,7 @@ img {
   line-height: 1.18;
 }
 /* кнопка */
-button {
+.button {
   min-width: 200px;
   margin: 0 auto;
   padding: 10px 32px;
@@ -347,6 +351,7 @@ address {
   background-color: var(--buttoms-portfolio-background);
 }
 .buttom-porfolio-item {
+  border-radius: 4px;
   margin-right: 8px;
   background-color: var(--buttoms-portfolio-background);
 }
